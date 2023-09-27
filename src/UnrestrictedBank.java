@@ -4,10 +4,10 @@
 
             private double balance;
 
-            public UnrestrictedBank(String maccountNumber, String naccountNumber, double mbalance){
-                this.accountNumber = maccountNumber ;
-                this.accountHolder = naccountNumber;
-                this.balance = mbalance;
+            public UnrestrictedBank(String maccountNumber, String maccountHolder, double mbalance){
+                accountNumber = maccountNumber ;
+                accountHolder = maccountHolder;
+                balance = mbalance;
             }
 
             public String getAccountNumber() {
